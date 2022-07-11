@@ -126,6 +126,19 @@ body {
 .item-contact .link:focus {
     color: var(--accent-color);
 }
+    .link .envelope {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    
+    fill: var(--sec-color);
+    }
+    .link .envelope:hover {
+    fill: var(--accent-color);
+    }
+    .link .envelope:focus {
+    fill: var(--accent-color);
+    }
 
 
 /*main*/
@@ -142,8 +155,8 @@ body {
     .section-hero {
     background-color: var(--footer-color);
     text-align: center;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 0px;
+    padding-bottom: 0px;
  }
 
     .hero-conteiner {
@@ -152,6 +165,20 @@ body {
     justify-content: center;
     width: 696px;
         }
+
+    .overlay {
+    height: 600px;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: linear-gradient(to right, rgba(43, 44, 58, 0.4), rgba(43, 44, 58, 0.4)), url("../images/img-hero-squoosh.jpg");   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
     
   
 /*section features*/
@@ -398,6 +425,9 @@ body {
 .item-contact .contact-item:last-child {
     margin-right: 0px;
 }
+
+
+
 
 /*portfolio-exampl*/
 
