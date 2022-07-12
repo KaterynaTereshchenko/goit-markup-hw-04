@@ -294,7 +294,9 @@ body {
     margin-bottom: 50px;
    }
 /*section our team*/
-
+.conteiner-main {
+    margin-bottom: 0px;
+}
 .list-team {
     display: flex;
 }
@@ -308,9 +310,7 @@ body {
 .list-team .member-team:last-child {
     margin-right: 0px;
 }
-.conteiner-main {
-    margin-bottom: 0px;
-}
+
 
  .list .list-profession {
 
@@ -321,17 +321,14 @@ body {
      line-height: 1.2;
      text-align: center;
      letter-spacing: 0.03em;
- }
-
- .list-profession {
-    
-    margin-top: 0px;
+        
+     margin-top: 0px;
      margin-bottom: 16px;
      margin-left: 0px;
      margin-right: 0px;
      padding-bottom: 0px;
-    
  }
+
     .about-member {
         padding-top: 30px;
         padding-bottom: 30px;
@@ -378,7 +375,7 @@ body {
 }
 
     .team-card {
-    width: 278px;
+    width: 270px;
  }
 
     .social {
