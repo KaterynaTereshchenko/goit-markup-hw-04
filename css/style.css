@@ -439,8 +439,7 @@ body {
     .footer-social {
         display: block;
         width: 144px;
-
-        }
+    }
 
         /*Regular clients*/
 
@@ -639,15 +638,15 @@ body {
     }
 
     .exampl-item:hover {
-    border: 1px solid rgba(200, 193, 193, 0.138);
-    box-shadow: 0px 2px 2px 0px rgba(10, 7, 7, 0.12),
-    0px 1px 2px 0px rgba(27, 27, 27, 0.12), 0px 3px 1px 0px rgba(41, 39, 39, 0.17);
+    border: 1px solid #EEEEEE;
+    box-shadow: 0px 1px 1px 0px rgba(10, 7, 7, 0.12),
+    0px 4px 4px 0px rgba(27, 27, 27, 0.06), 0px 6px 4px 0px rgba(41, 39, 39, 0.17);
     }
     
     .exampl-item:focus {
-    border: 1px solid rgba(200, 193, 193, 0.138);
-    box-shadow: 0px 2px 2px 0px rgba(10, 7, 7, 0.12),
-    0px 1px 2px 0px rgba(27, 27, 27, 0.12), 0px 3px 1px 0px rgba(41, 39, 39, 0.17);
+    border: 1px solid #EEEEEE;
+    box-shadow: 0px 1px 1px 0px rgba(10, 7, 7, 0.12),
+    0px 4px 4px 0px rgba(27, 27, 27, 0.06), 0px 6px 4px 0px rgba(41, 39, 39, 0.17);
     }
     
     .exampl-content {
