@@ -603,11 +603,11 @@ body {
     list-style: none;
 }
     .card-exampl {
-    padding-top: 20px;
-    padding-bottom: 24px;
-    padding-right: 24px;
-    padding-left: 20px;
-    margin-right: 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 24px;
+    margin-right: auto;
+    margin-left: auto;
      }
 
     .exampl {
@@ -618,17 +618,15 @@ body {
     margin-top: 0px;
     margin-bottom: 0px;
     
-    padding: 0px 0px 0px 0px;
+    padding: 0;
     }
 
     .exampl-item {
-    
     width: calc((100% - 60px) / 3);
     margin-right: 30px;
     margin-bottom: 30px;
     padding-bottom: 0px;
     align-content: space-around;
-    border: 1px solid rgba(201, 201, 208, 0.193)
     }
   
     .exampl-item:nth-child(3n) {
@@ -638,23 +636,35 @@ body {
         margin-bottom: 0px;
     }
 
-    .exampl-item:hover {
+    .exampl-item .exampl-link:hover {
     border: 1px solid #EEEEEE;
     box-shadow: 0px 1px 1px 0px rgba(10, 7, 7, 0.12),
     0px 4px 4px 0px rgba(27, 27, 27, 0.06), 0px 6px 4px 0px rgba(41, 39, 39, 0.17);
     }
     
-    .exampl-item:focus {
+    .exampl-item .exampl-link:focus {
     border: 1px solid #EEEEEE;
     box-shadow: 0px 1px 1px 0px rgba(10, 7, 7, 0.12),
     0px 4px 4px 0px rgba(27, 27, 27, 0.06), 0px 6px 4px 0px rgba(41, 39, 39,0.17);
     }
+
+    .exampl-link {
+    display: inline-block;
+    padding: 0;
+    border: 1px solid rgba(201, 201, 208, 0.193);
+    
+    color: var(--main-color);
+    
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    text-decoration-line: none;
+        }
     
     .exampl-content {
-    margin-right: 0px;
-    margin-left: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    display: block;
+    margin: 0;
    
     color: var(--sec-color);
 
@@ -683,20 +693,6 @@ body {
     display: block;
     width: 370px;
      }       
-    
-    .exampl-link {
-    
-    display: inline-block;
-    padding: 0;
-    text-decoration-line: none;
-    
-    color: var(--main-color);
-    
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-  }
      
   
  /*footer*/
